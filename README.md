@@ -10,7 +10,7 @@
 6. In the next step I creeated Visualizations (Multi-variate scatterplots, histograms, barplots and boxplots) to further explain the correlating columns,
 7. Before deploying models I split the data into train and test sets creating X and y variables, removing the unique column item identifier
 8. Using the SciKitLearn library I was able to divide the data into numeric and categoerical data by employing imputers for object and number columns secting both aby way of mean and most frequent strategies to transform the data.
-9. Next I handled the missing values with a Standard scaler and deployed a One Hot Encoder to create a binary colum for each column through tuples. This is a must before passing data through our models. Then made pipelines to combine the variables with the previously created processes and assigned column transformers to finalize the preprocessing.
+9. Next I handled the missing values with a Standard scaler and deployed a One Hot Encoder to create a binary colum for each column through tuples. This is a must before passing data through our models. Then made pipelines to combine the variables with the previously created processes and assigned column transformers to finalize the preprocessing. Applied changes to the training data.
 10. The first model I chose was a linear regression model and combined it to the pipe created earlier, fitting it to only the training data.
 11. Lastly for this model I then score the pipes for accuracy
 12. Was not satisfied so I further evaluated the model with a few more regression metrics and still got low scores (R^2 0.5615527181926836
