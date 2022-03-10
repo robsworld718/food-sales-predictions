@@ -18,6 +18,7 @@
 13. Since the dataset had multiple categoerical variables I chose to use a decision tree model. Since I created the pre processing variables already, I only had to deploy the model after creating a new pipe, attaching the transformer and fitting it to the data.
 14. I then evaluated the scores(X,y), the decision tree depths and got better results ( R^2 0.9168944665022553
  RMSE 495.930585049585)
+15. I added a Randomn Forest model to increase scoring by way of the enssemble method through weaker bagged trees. This resulted in a randomn Forest model being scored at 93% on training data and 56% on testing data. There was too much variance between testing and training data.
 
 ![OTBEY](https://user-images.githubusercontent.com/77306280/151509212-77521056-46e2-4e53-9244-aacd96afe5cc.png)
 
